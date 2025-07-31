@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.bg-teal {
+    background-color: #20c997;
+}
+
+.sidebar {
+    height: 100vh;
+    padding: 20px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Add custom styles to override Bootstrap button styles */
+.btn-update {
+    background-color: green;
+    color: white; /* Optionally, change text color to white */
+    border-color: green; /* Set border color to green */
+}
+
+/* Override button hover styles */
+.btn-update:hover {
+    background-color: green; /* Ensure background color remains green on hover */
+    border-color: green; /* Ensure border color remains green on hover */
+    color: white; /* Optionally, change text color to white on hover */
+}
+
